@@ -1,5 +1,5 @@
 :: #################################################################### 
-:: Write eicar test file to specifed location 
+:: Write eicar test file to specifed location
 :: Information about EICAR http://www.eicar.org/86-0-Intended-use.html
 :: #################################################################### 
 pushd "%~dp0"
@@ -20,7 +20,6 @@ GOTO WRITE_TARGET_FILE
 :WRITE_TARGET_FILE
 REM Write the Eicar test file to specified folder 
 echo X5O!P%%@AP[4\PZX54(P^^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*>%target_file%
-
 
 REM Exit with proper exit code for McAfee Agent
 REM #################################################################### 
